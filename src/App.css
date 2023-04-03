@@ -13,3 +13,7 @@
 .fondo-contacto{
     background-image: url('../src/assets/bg/contacto.png');
 }
+
+.producto1{
+    background-image: url('../src/assets/productos/llaveros.png');
+}
