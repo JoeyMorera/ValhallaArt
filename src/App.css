@@ -1,0 +1,15 @@
+.fondo{
+    background-image: url('../src/assets/bg/stars.png');
+}
+
+.fondo2{
+    background-image: url('../src/assets/bg/middle.png');
+}
+
+.fondo3{
+    background-image: url('../src/assets/bg/Trees.png');
+}
+
+.fondo-contacto{
+    background-image: url('../src/assets/bg/contacto.png');
+}
