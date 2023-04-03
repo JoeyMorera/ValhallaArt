@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import llaveros from '../src/assets/productos/llaveros.png'
 import './App.css'
 
 function App() {
@@ -78,9 +79,8 @@ function App() {
             <h2 className="text-white mb-2 sm:mb-16 md:mb-0 xl:mb-3 text-5xl sm:text-6xl font-bold py-10 sm:py-0  md:py-10 x:py-24" id="Productos">Productos</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 xl:gap-20 w-full">
               <div className="inline-block ">
-                <div className=" bg-white w-ful h-full">
-                  <div className="producto1 bg-cover w-ful h-full"></div>
-                  {/* <img src="../src/assets/productos/llaveros.png" alt="producto" /> */}
+                <div className=" bg-white ">
+                  <img src={llaveros} alt="producto" />
                 </div>
                 <div className="p-6 sm:p-10 text-2xl sm:text-2xl">
                   <p>Titulo</p>
