@@ -4,6 +4,7 @@ import moon from '../../src/assets/bg/moon.png'
 import stars from '../../src/assets/bg/stars.png'
 import mtBeh from '../../src/assets/bg/mountains_behind.png'
 import mtFront from '../../src/assets/bg/mountains_front.png'
+import logo from '../../src/assets/logo.svg'
 
 const Home = () => {
     const [nav, setNav] = useState(0)
@@ -26,7 +27,7 @@ const Home = () => {
             <header className="absolute top-0 left-0 w-full flex py-4 px-0 md:px-20 xl:px-44 justify-center md:justify-between md:items-center font-bold text-sm sm:text-xl md:text-2xl z-50" style={{ top: `${nav}px` }} >
                 <div className="">
                     <a href="#" className="text-white font-bold md:text-4xl uppercase md:tracking-[.25em]">
-                        <img src="../src/assets/logo.svg" alt="logo" className="md:mt-1 w-10 md:w-28 " />
+                        <img src={logo} alt="logo" className="md:mt-1 w-10 md:w-28 " />
                     </a>
                 </div>
                 <ul className="flex justify-center items-center" >
